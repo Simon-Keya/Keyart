@@ -1,0 +1,96 @@
+/* Header Styles */
+
+.header {
+    background-color: #3c6bbd;
+    /* Updated header background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Shadow */
+}
+
+.container {
+    width: 100%;
+    /* Full width */
+    padding-right: 2rem;
+    /* Right padding */
+    padding-left: 2rem;
+    /* Left padding */
+    margin-right: auto;
+    /* Center the container */
+    margin-left: auto;
+    /* Center the container */
+}
+
+.px-6 {
+    padding-right: 1.5rem;
+    /* Right padding */
+    padding-left: 1.5rem;
+    /* Left padding */
+}
+
+.py-4 {
+    padding-top: 1rem;
+    /* Top padding */
+    padding-bottom: 0.2rem;
+    /* Adjusted bottom padding */
+}
+
+.flex {
+    display: flex;
+    /* Display as flex */
+}
+
+.justify-between {
+    justify-content: space-between;
+    /* Space between items */
+}
+
+ul {
+    list-style-type: none;
+    /* Remove list bullet */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+}
+
+ul li {
+    margin-right: 1.5rem;
+    /* Right margin between list items */
+}
+
+.text-gray-800 {
+    color: #0f1011;
+    /* Dark gray text */
+}
+
+/* Updated text color to white */
+.text-white {
+    color: #ffffff;
+    /* White text */
+}
+
+/* Updated hover text color to light gray */
+.hover\:text-gray-300:hover {
+    color: #a0aec0;
+    /* Light gray text on hover */
+}
+
+.ml-2 {
+    margin-left: 0.5rem;
+    /* Left margin */
+}
+
+.w-8 {
+    width: 2rem;
+    /* Width */
+}
+
+.h-8 {
+    height: 2rem;
+    /* Height */
+}
+
+.flex a:hover {
+    opacity: 0.7;
+    /* Reduce opacity on hover */
+}

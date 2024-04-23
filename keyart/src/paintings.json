@@ -1,0 +1,18 @@
+[
+    {
+      "title": "Painting 1",
+      "imageUrl": "https://example.com/painting1.jpg",
+      "description": "Description of Painting 1"
+    },
+    {
+      "title": "Painting 2",
+      "imageUrl": "https://example.com/painting2.jpg",
+      "description": "Description of Painting 2"
+    },
+    {
+      "title": "Painting 3",
+      "imageUrl": "https://example.com/painting3.jpg",
+      "description": "Description of Painting 3"
+    }
+  ]
+  

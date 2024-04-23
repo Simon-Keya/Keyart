@@ -1,0 +1,57 @@
+/* Gallery.css */
+
+/* Set background color to black */
+.bg-black {
+    background-color: #000;
+}
+
+/* Set text color to white */
+.text-white {
+    color: #fff;
+}
+
+/* Set margin bottom for the gallery section */
+.mb-8 {
+    margin-bottom: 2rem;
+    /* Adjust margin bottom as needed */
+}
+
+/* Set text size and font weight for section title */
+.text-2xl {
+    font-size: 1.5rem;
+    /* Adjust font size as needed */
+    font-weight: 600;
+    /* Adjust font weight as needed */
+}
+
+/* Set font weight for section title */
+.font-semibold {
+    font-weight: 600;
+    /* Adjust font weight as needed */
+}
+
+/* Set max width for the gallery */
+.max-w-lg {
+    max-width: 28rem;
+    /* Adjust max width as needed */
+}
+
+/* Set margin top for the gallery section */
+.mt-4 {
+    margin-top: 1rem;
+    /* Adjust margin top as needed */
+}
+
+/* Set text size and color for the message when no images are available */
+.text-white {
+    color: #fff;
+    /* Set text color to white */
+}
+
+/* Set text size and font weight for the message when no images are available */
+.text-white {
+    font-size: 1rem;
+    /* Adjust font size as needed */
+    font-weight: 400;
+    /* Adjust font weight as needed */
+}

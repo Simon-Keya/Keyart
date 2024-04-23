@@ -1,0 +1,100 @@
+/* Carousel.css */
+
+/* Set background color to black */
+.bg-black {
+    background-color: #000;
+}
+
+/* Set text color to white */
+.text-white {
+    color: #fff;
+}
+
+/* Set position and size of the carousel */
+.relative {
+    position: relative;
+    width: 100%;
+    /* Set width of the carousel */
+}
+
+/* Set overflow behavior for the carousel */
+.overflow-hidden {
+    overflow: hidden;
+}
+
+/* Set width and height of the carousel images */
+.w-full {
+    width: 100%;
+    /* Set width of the image */
+}
+
+.h-auto {
+    height: auto;
+    /* Set height to auto for responsive behavior */
+}
+
+/* Set position and style of the description text */
+.absolute {
+    position: absolute;
+}
+
+.bottom-0 {
+    bottom: 0;
+    /* Align description text to the bottom */
+}
+
+.left-0 {
+    left: 0;
+    /* Align description text to the left */
+}
+
+.w-full {
+    width: 100%;
+    /* Set width of the description text */
+}
+
+.bg-gray-800 {
+    background-color: #333;
+    /* Set background color of the description text */
+}
+
+.bg-opacity-50 {
+    opacity: 0.5;
+    /* Set opacity of the background color */
+}
+
+.text-center {
+    text-align: center;
+    /* Center align the text */
+}
+
+.p-2 {
+    padding: 0.5rem;
+    /* Set padding around the text */
+}
+
+/* Set position and style of the navigation buttons */
+.absolute {
+    position: absolute;
+}
+
+
+.left-0 {
+    left: 0;
+    /* Align left button to the left */
+}
+
+.right-0 {
+    right: 0;
+    /* Align right button to the right */
+}
+
+.transform {
+    transform: translateY(-50%);
+    /* Adjust vertical position of buttons */
+}
+
+.focus\:outline-none:focus {
+    outline: none;
+    /* Remove outline on focus for better accessibility */
+}

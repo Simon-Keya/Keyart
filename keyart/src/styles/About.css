@@ -1,0 +1,153 @@
+/* About.css */
+
+/* Styles for the container */
+.container {
+    max-width: 1140px;
+    /* Adjust as needed */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Styles for the grid */
+.grid {
+    display: grid;
+}
+
+/* Styles for the columns */
+.grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+/* Medium screen breakpoint */
+@media (min-width: 768px) {
+
+    /* Styles for the grid on medium screens */
+    .md\:grid {
+        display: grid;
+    }
+
+    /* Styles for the columns on medium screens */
+    .md\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Large screen breakpoint */
+@media (min-width: 1024px) {
+
+    /* Styles for the grid on large screens */
+    .lg\:grid {
+        display: grid;
+    }
+
+    /* Styles for the columns on large screens */
+    .lg\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+/* Styles for the text container */
+.text-container {
+    padding: 1rem;
+    /* Adjust as needed */
+}
+
+/* Styles for the headings */
+.sm\:text-3xl {
+    font-size: 1.875rem;
+    /* Adjust as needed */
+    line-height: 2.25rem;
+    /* Adjust as needed */
+    font-weight: 500;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    /* Adjust as needed */
+    line-height: 2rem;
+    /* Adjust as needed */
+    font-weight: 500;
+}
+
+/* Styles for the paragraphs */
+.leading-loose {
+    line-height: 1.75;
+    /* Adjust as needed */
+}
+
+.text-gray-600 {
+    color: #fff;
+    /* White text color */
+}
+
+/* Styles for the background */
+.bg-black {
+    background-color: #000;
+    /* Black background color */
+}
+
+/* Styles for the padding */
+.py-24 {
+    padding-top: 6rem;
+    /* Adjust as needed */
+    padding-bottom: 6rem;
+    /* Adjust as needed */
+}
+
+.py-4 {
+    padding-top: 1rem;
+    /* Adjust as needed */
+    padding-bottom: 1rem;
+    /* Adjust as needed */
+}
+
+/* Styles for the margins */
+.mb-4 {
+    margin-bottom: 1rem;
+    /* Adjust as needed */
+}
+
+/* Styles for the image container */
+.bg-gray-100 {
+    background-color: #f7fafc;
+    /* Light gray background color */
+}
+
+/* Styles for the image */
+.object-cover {
+    object-fit: cover;
+}
+
+.object-center {
+    object-position: center;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-24 {
+    height: 6rem;
+    /* Adjust as needed */
+}
+
+.h-36 {
+    height: 9rem;
+    /* Adjust as needed */
+}
+
+.h-48 {
+    height: 12rem;
+    /* Adjust as needed */
+}
+
+/* Styles for the border radius */
+.rounded-lg {
+    border-radius: 0.5rem;
+    /* Adjust as needed */
+}
+
+/* Styles for the overflow */
+.overflow-hidden {
+    overflow: hidden;
+}
