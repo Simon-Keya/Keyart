@@ -1,204 +1,114 @@
 /* Home.css */
 
-/* Styles for the container */
-.container {
-    max-width: 1140px;
-    /* Adjust as needed */
-    margin-right: auto;
-    margin-left: auto;
+/* Section Styles */
+#home {
+    position: relative;
+    background-color: #000;
+    /* Adjusted background color */
+    color: #fff;
+    /* Adjusted text color */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* Adjusted height */
 }
 
-/* Styles for the grid */
+/* Gradient Styles */
+.bg-gradient-to-r {
+    background-image: linear-gradient(to right, #0a0a0a, #0a0a0a, #0c0c0c);
+    /* Adjusted gradient colors */
+}
+
+/* Container Styles */
+.container {
+    max-width: 1100px;
+    /* Adjusted max-width */
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Grid Styles */
 .grid {
     display: grid;
 }
 
-/* Styles for the columns */
 .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-/* Medium screen breakpoint */
-@media (min-width: 768px) {
-
-    /* Styles for the grid on medium screens */
-    .md\:grid {
-        display: grid;
-    }
-
-    /* Styles for the columns on medium screens */
-    .md\:grid-cols-2 {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+.md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-/* Large screen breakpoint */
-@media (min-width: 1024px) {
-
-    /* Styles for the grid on large screens */
-    .lg\:grid {
-        display: grid;
-    }
-
-    /* Styles for the columns on large screens */
-    .lg\:grid-cols-3 {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-}
-
-/* Styles for the text */
+/* Text Styles */
 .text-center {
     text-align: center;
 }
 
-.text-left {
+.md\:text-left {
     text-align: left;
 }
 
-/* Styles for the headings */
+/* Heading Styles */
 .text-4xl {
     font-size: 2.25rem;
-    /* Adjust as needed */
-    line-height: 2.5rem;
-    /* Adjust as needed */
-    font-weight: 700;
+    /* Adjusted font-size */
 }
 
-.text-5xl {
+.md\:text-5xl {
     font-size: 3rem;
-    /* Adjust as needed */
-    line-height: 3.5rem;
-    /* Adjust as needed */
+    /* Adjusted font-size */
+}
+
+.font-bold {
     font-weight: 700;
 }
 
-.text-2xl {
-    font-size: 1.5rem;
-    /* Adjust as needed */
-    line-height: 2rem;
-    /* Adjust as needed */
-    font-weight: 600;
-}
-
-.text-3xl {
-    font-size: 1.875rem;
-    /* Adjust as needed */
-    line-height: 2.25rem;
-    /* Adjust as needed */
-    font-weight: 600;
-}
-
-.text-xl {
-    font-size: 1.25rem;
-    /* Adjust as needed */
-    line-height: 1.75rem;
-    /* Adjust as needed */
-    font-weight: 500;
-}
-
-.text-lg {
-    font-size: 1.125rem;
-    /* Adjust as needed */
-    line-height: 1.75rem;
-    /* Adjust as needed */
-    font-weight: 400;
-}
-
-/* Styles for the margins */
 .mb-4 {
     margin-bottom: 1rem;
-    /* Adjust as needed */
 }
 
-.mb-6 {
-    margin-bottom: 1.5rem;
-    /* Adjust as needed */
+/* Paragraph Styles */
+.text-lg {
+    font-size: 1.125rem;
+    /* Adjusted font-size */
 }
 
-/* Styles for the padding */
-.py-20 {
-    padding-top: 5rem;
-    /* Adjust as needed */
-    padding-bottom: 5rem;
-    /* Adjust as needed */
+.md\:text-xl {
+    font-size: 1.25rem;
+    /* Adjusted font-size */
 }
 
-.py-2 {
-    padding-top: 0.5rem;
-    /* Adjust as needed */
-    padding-bottom: 0.5rem;
-    /* Adjust as needed */
+.mt-6 {
+    margin-top: 1.5rem;
 }
 
-.py-4 {
-    padding-top: 1rem;
-    /* Adjust as needed */
-    padding-bottom: 1rem;
-    /* Adjust as needed */
+.mt-4 {
+    margin-top: 1rem;
 }
 
-.py-6 {
-    padding-top: 1.5rem;
-    /* Adjust as needed */
-    padding-bottom: 1.5rem;
-    /* Adjust as needed */
-}
-
-/* Styles for the images */
-img {
-    max-width: 100%;
-    /* Ensure images don't exceed their container */
-}
-
-/* Styles for the background */
-.bg-cover {
-    background-size: cover;
-}
-
-.bg-no-repeat {
-    background-repeat: no-repeat;
-}
-
-/* Styles for the gradient */
-.bg-gradient-to-r {
-    background-image: linear-gradient(to right, var(--gradient-from, transparent), var(--gradient-to, transparent));
-}
-
-/* Styles for the absolute positioning */
-.absolute {
-    position: absolute;
-}
-
-/* Styles for the top and left */
-.top-0 {
-    top: 0;
-}
-
-.left-0 {
-    left: 0;
-}
-
-/* Styles for the height and width */
-.h-full {
-    height: 100%;
-}
-
-.w-full {
+/* Image Styles */
+.img {
     width: 100%;
 }
 
-/* Styles for the background opacity */
-.bg-opacity-75 {
-    background-color: rgba(0, 0, 0, 0.75);
-    /* Adjust as needed */
-}
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .text-lg {
+        font-size: 1.25rem;
+        /* Adjusted font-size */
+    }
 
-/* Styles for the padding on small screens */
-@media (max-width: 640px) {
-    .py-20 {
-        padding-top: 3rem;
-        /* Adjust as needed */
-        padding-bottom: 3rem;
-        /* Adjust as needed */
+    .md\:text-xl {
+        font-size: 1.5rem;
+        /* Adjusted font-size */
+    }
+
+    .mt-6 {
+        margin-top: 2rem;
+    }
+
+    .mt-4 {
+        margin-top: 1.5rem;
     }
 }

@@ -1,17 +1,17 @@
 [
     {
       "title": "Drawing 1",
-      "imageUrl": "https://example.com/drawing1.jpg",
+      "imageUrl": "https://source.unsplash.com/random?sketch",
       "description": "Description of Drawing 1"
     },
     {
       "title": "Drawing 2",
-      "imageUrl": "https://example.com/drawing2.jpg",
+      "imageUrl": "https://via.placeholder.com/800x600?text=Drawing+2",
       "description": "Description of Drawing 2"
     },
     {
       "title": "Drawing 3",
-      "imageUrl": "https://example.com/drawing3.jpg",
+      "imageUrl": "https://via.placeholder.com/800x600?text=Drawing+3",
       "description": "Description of Drawing 3"
     }
   ]
