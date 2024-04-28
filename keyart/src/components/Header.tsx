@@ -8,12 +8,12 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ scrollToSection }) => {
   return (
-    <header className="bg-gray-800 shadow-lg pb-2 text-white">  
+    <header className="bg-black-800 shadow-lg pb-2 text-white">  
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <div>
             <Link to="/" className="flex items-center text-2xl font-bold">
-              <img src="/logo.png" alt="keyart" className="w-8 h-8 mr-2" />
+              <img src="/assets/logo.png" alt="keyart" className="w-8 h-8 mr-2" />
               KEYART
             </Link>
           </div>

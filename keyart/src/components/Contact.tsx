@@ -17,7 +17,7 @@ const Contact: React.FC<ContactProps> = ({ id }) => {
    },
    {
      title: 'Address',
-     value: '123 Main Street, Narok, Kenya',
+     value: 'Narok & Nairobi, Kenya',
    },
    {
      title: 'Social Media',

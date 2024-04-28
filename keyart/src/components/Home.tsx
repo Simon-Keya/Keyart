@@ -35,7 +35,7 @@ const Home: React.FC<HomeProps> = ({ id }) => {
             </div>
             <div>
               <img
-                src=""
+                src="/assets/colori.jpg"
                 alt="Art"
               />
             </div>

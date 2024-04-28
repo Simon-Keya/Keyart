@@ -93,22 +93,17 @@
 }
 
 /* Responsive Styles */
-@media (min-width: 768px) {
-    .text-lg {
-        font-size: 1.25rem;
-        /* Adjusted font-size */
+/* Responsive styles */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
     }
 
-    .md\:text-xl {
-        font-size: 1.5rem;
-        /* Adjusted font-size */
+    .w-64 {
+        width: 100%;
     }
 
-    .mt-6 {
-        margin-top: 2rem;
-    }
-
-    .mt-4 {
-        margin-top: 1.5rem;
+    .h-64 {
+        height: auto;
     }
 }

@@ -1,149 +1,132 @@
 /* Contact.css */
 
-/* Adjust the background color */
+/* Adjust background color */
 .bg-black {
-    background-color: #000;
+    background-color: black;
 }
 
-/* Adjust the text color for the main heading */
+/* Adjust text color */
 .text-white {
-    color: #fff;
+    color: white;
 }
 
-/* Adjust the text color for the content */
-.text-gray-900 {
-    color: #333;
-    /* Adjust the color to a lighter shade of gray if needed */
-}
-
-/* Adjust the padding and margin for the section */
+/* Set padding for the section */
 .py-12 {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
-/* Adjust padding and margin for the container */
-.px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-/* Responsive padding for small screens */
+/* Set padding for smaller screens */
 @media (min-width: 640px) {
-    .sm\:px-6 {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+    .py-12 {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
     }
 }
 
-/* Responsive padding for large screens */
+/* Set padding for medium screens */
+@media (min-width: 768px) {
+    .py-12 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+/* Set padding for large screens */
 @media (min-width: 1024px) {
-    .lg\:px-8 {
-        padding-left: 2rem;
-        padding-right: 2rem;
+    .py-12 {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
     }
 }
 
-/* Adjust margin for the container */
-.mx-auto {
-    margin-left: auto;
+/* Adjust container width */
+.container {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
     margin-right: auto;
+    margin-left: auto;
 }
 
-/* Adjust margin for the text elements */
-.mb-20 {
-    margin-bottom: 5rem;
-}
-
-/* Center align text */
+/* Adjust margin for text centering */
 .text-center {
     text-align: center;
 }
 
-/* Max width for text */
-.max-w-2xl {
-    max-width: 42rem;
-    /* Adjust max width as needed */
-}
-
-/* Adjust text size for main heading */
-.text-3xl {
-    font-size: 1.875rem;
-    /* Adjust font size as needed */
-}
-
-/* Adjust font weight for main heading */
-.font-extrabold {
-    font-weight: 800;
-}
-
-/* Adjust margin for text elements */
+/* Adjust margin for text */
 .mt-4 {
     margin-top: 1rem;
 }
 
-/* Adjust margin for text elements */
-.mt-6 {
-    margin-top: 1.5rem;
+/* Set maximum width for text */
+.max-w-2xl {
+    max-width: 42rem;
 }
 
-/* Adjust margin for text elements */
-.mb-2 {
-    margin-bottom: 0.5rem;
-}
-
-/* Adjust font weight for secondary headings */
-.font-semibold {
-    font-weight: 600;
-}
-
-/* Adjust text size for secondary headings */
-.text-xl {
-    font-size: 1.25rem;
-    /* Adjust font size as needed */
-}
-
-/* Adjust text size for paragraphs */
-.text-base {
-    font-size: 1rem;
-    /* Adjust font size as needed */
-}
-
-/* Adjust grid layout for different screen sizes */
+/* Adjust margin for grid */
 .grid {
     display: grid;
 }
 
-/* Adjust column layout for different screen sizes */
-.grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+/* Set column layout for small screens */
+@media (min-width: 640px) {
+    .grid-cols-1 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+/* Set column layout for medium screens */
+@media (min-width: 768px) {
+    .grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Set column layout for large screens */
+@media (min-width: 1024px) {
+    .grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
 }
 
 /* Adjust gap between grid items */
 .gap-4 {
     gap: 1rem;
-    /* Adjust gap size as needed */
 }
 
 /* Adjust padding for grid items */
 .p-6 {
     padding: 1.5rem;
-    /* Adjust padding size as needed */
 }
 
-/* Adjust background color for grid items */
+/* Adjust background and border for grid items */
 .bg-white {
-    background-color: #fff;
+    background-color: white;
 }
 
-/* Add border radius to grid items */
+/* Add border radius for grid items */
 .rounded-lg {
     border-radius: 0.5rem;
-    /* Adjust border radius as needed */
 }
 
-/* Add shadow to grid items */
+/* Add shadow for grid items */
 .shadow-md {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    /* Adjust shadow as needed */
+}
+
+/* Adjust font size and weight for grid item title */
+.text-xl {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Adjust font weight for grid item value */
+.font-semibold {
+    font-weight: 600;
+}
+
+/* Adjust text color for grid item value */
+.text-gray-900 {
+    color: #1f2937;
 }
