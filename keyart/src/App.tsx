@@ -37,8 +37,7 @@ const App: React.FC = () => {
         <main>
           <Home id="home" />
           <About id="about" />
-          <Gallery id="paintings" title="Paintings" />
-          <Gallery id="drawings" title="Drawings" />
+          <Gallery id="gallery"/>
           <Contact id="contact" />
         </main>
         <Footer />

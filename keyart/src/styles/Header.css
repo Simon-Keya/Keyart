@@ -1,29 +1,20 @@
-/* Header.css */
+/* Header Styles */
 
-.bg-gray-800 {
-    background-color: #070707;
+header {
+    background-color: #000;
+    /* Dark background color */
+    color: #eee8e8;
+    /* White text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Box shadow */
 }
 
-.shadow-lg {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.pb-2 {
-    padding-bottom: 0.5rem;
-}
-
-.text-white {
-    color: #fff;
-}
-
-/* Container */
 .container {
-    max-width: 7xl;
-    padding: 0 1rem;
+    max-width: 1140px;
+    /* Adjusted max-width */
     margin: 0 auto;
 }
 
-/* Flexbox */
 .flex {
     display: flex;
 }
@@ -36,7 +27,15 @@
     align-items: center;
 }
 
-/* Logo */
+.text-2xl {
+    font-size: 1.5rem;
+    /* Adjusted font size */
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
 .w-8 {
     width: 2rem;
 }
@@ -49,25 +48,6 @@
     margin-right: 0.5rem;
 }
 
-/* Navigation Links */
-.ul {
-    list-style: none;
-    /* Remove default bullet points */
-    padding: 0;
-    margin: 0;
-}
-
-.flex.items-center>li {
-    display: inline-block;
-    /* Make list items inline */
-    margin-right: 1rem;
-    /* Add spacing between links */
-}
-
-.mr-4 {
-    margin-right: 1rem;
-}
-
 .px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
@@ -78,11 +58,37 @@
     padding-bottom: 0.5rem;
 }
 
-.hover:text-gray-200 {
-    /* Hover effect for links */
-    transition: color 0.3s ease-in-out;
+.hover\:text-gray-200:hover {
+    color: #ccc;
+    /* Hover text color */
+}
 
-    &:hover {
-        color: #cccccc;
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 15px;
+        /* Adjusted padding */
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        padding: 0 30px;
+        /* Adjusted padding */
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        padding: 0 45px;
+        /* Adjusted padding */
+    }
+}
+
+@media (min-width: 1536px) {
+    .container {
+        padding: 0 60px;
+        /* Adjusted padding */
     }
 }

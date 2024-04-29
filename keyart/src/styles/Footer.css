@@ -1,0 +1,68 @@
+/* Footer.css */
+
+/* Footer Styles */
+footer {
+  background-color: #000;
+  /* Dark background color */
+  color: #fff;
+  /* Text color */
+  padding: 2rem 0;
+  /* Adjusted padding */
+}
+
+/* Container Styles */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Social Media Icons Styles */
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  /* Align icons to the left */
+  margin-bottom: 1rem;
+  /* Added margin at the bottom */
+}
+
+.social-icons a {
+  margin-right: 1rem;
+  /* Adjusted margin between icons */
+}
+
+/* Copyright Styles */
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  /* Align copyright text to the right */
+  align-items: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+
+  /* Adjustments for smaller screens */
+  .social-icons {
+    flex-direction: column;
+    /* Icons arranged in a column */
+    justify-content: center;
+    /* Align icons to the center */
+    margin-bottom: 1.5rem;
+    /* Increased margin at the bottom */
+  }
+
+  .social-icons a {
+    margin-right: 0;
+    /* Removed right margin for icons */
+    margin-bottom: 0.5rem;
+    /* Added bottom margin for icons */
+  }
+
+  .copyright {
+    flex-direction: column;
+    /* Text arranged in a column */
+    align-items: flex-start;
+    /* Align text to the left */
+  }
+}

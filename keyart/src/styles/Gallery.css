@@ -1,57 +1,72 @@
 /* Gallery.css */
 
-/* Set background color to black */
-.bg-black {
+/* Section Styles */
+#gallery {
     background-color: #000;
-}
-
-/* Set text color to white */
-.text-white {
     color: #fff;
+    padding: 2rem;
+    font-size: 2rem;
+    /* Increased font size for the section */
 }
 
-/* Set margin bottom for the gallery section */
-.mb-8 {
-    margin-bottom: 2rem;
-    /* Adjust margin bottom as needed */
+/* Grid Styles */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
 }
 
-/* Set text size and font weight for section title */
-.text-2xl {
-    font-size: 1.5rem;
-    /* Adjust font size as needed */
-    font-weight: 600;
-    /* Adjust font weight as needed */
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
-/* Set font weight for section title */
-.font-semibold {
-    font-weight: 600;
-    /* Adjust font weight as needed */
-}
-
-/* Set max width for the gallery */
-.max-w-lg {
-    max-width: 28rem;
-    /* Adjust max width as needed */
-}
-
-/* Set margin top for the gallery section */
-.mt-4 {
-    margin-top: 1rem;
-    /* Adjust margin top as needed */
-}
-
-/* Set text size and color for the message when no images are available */
-.text-white {
+/* Card Styles */
+.card {
+    background-color: #333;
     color: #fff;
-    /* Set text color to white */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
 }
 
-/* Set text size and font weight for the message when no images are available */
-.text-white {
-    font-size: 1rem;
-    /* Adjust font size as needed */
-    font-weight: 400;
-    /* Adjust font weight as needed */
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 1.125rem;
+    /* Reduced font size for both painting and drawing titles */
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 0.75rem;
+    /* Reduced font size for both painting and drawing data */
+    margin-bottom: 0.5rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .card {
+        padding: 1.5rem;
+    }
+
+    .card h3 {
+        font-size: 1rem;
+        /* Adjusted font size for smaller screens */
+    }
+
+    .card p {
+        font-size: 0.625rem;
+        /* Adjusted font size for smaller screens */
+    }
 }

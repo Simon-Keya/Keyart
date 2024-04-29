@@ -11,8 +11,16 @@ const Home: React.FC<HomeProps> = ({ id }) => {
       <div className="bg-gradient-to-r from-green-500 via-green-700 to-green-900 absolute top-0 left-0 h-full w-full bg-opacity-75">
         <div className="container mx-auto px-4 py-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Image on the left */}
             <div>
-              <div className="text-center md:text-left"> {/* Wrap original text in text-center */}
+              <img
+                src="/assets/colori.jpg"
+                alt="Art"
+              />
+            </div>
+            {/* Text content on the right */}
+            <div>
+              <div className="text-center md:text-left">
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">
                   ART
                 </h1>
@@ -32,12 +40,6 @@ const Home: React.FC<HomeProps> = ({ id }) => {
               <p className="text-lg md:text-xl mt-4">
                 Browse through my gallery to discover the beauty of art through my eyes. Feel free to reach out to me with any inquiries or project ideas.
               </p>
-            </div>
-            <div>
-              <img
-                src="/assets/colori.jpg"
-                alt="Art"
-              />
             </div>
           </div>
         </div>

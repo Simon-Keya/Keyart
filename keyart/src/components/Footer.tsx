@@ -6,7 +6,7 @@ import '../styles/Footer.css';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-900 text-black py-6">
+    <footer className="bg-black text-white py-6">
       <div className="container mx-auto px-4">
         <div className="flex justify-center mb-4">
           {/* LinkedIn */}

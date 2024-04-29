@@ -1,132 +1,85 @@
 /* Contact.css */
 
-/* Adjust background color */
-.bg-black {
-    background-color: black;
+/* Section Styles */
+#contact {
+    background-color: #000;
+    /* Adjusted background color */
+    color: #fff;
+    /* Adjusted text color */
+    padding: 6rem 2rem;
+    /* Adjusted padding */
 }
 
-/* Adjust text color */
-.text-white {
-    color: white;
-}
-
-/* Set padding for the section */
-.py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
-/* Set padding for smaller screens */
-@media (min-width: 640px) {
-    .py-12 {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-    }
-}
-
-/* Set padding for medium screens */
-@media (min-width: 768px) {
-    .py-12 {
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-    }
-}
-
-/* Set padding for large screens */
-@media (min-width: 1024px) {
-    .py-12 {
-        padding-top: 6rem;
-        padding-bottom: 6rem;
-    }
-}
-
-/* Adjust container width */
-.container {
-    width: 100%;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-/* Adjust margin for text centering */
-.text-center {
+/* Title Styles */
+#contact h2 {
+    font-size: 3rem;
+    /* Increased font size for the title */
+    font-weight: 800;
+    /* Adjusted font weight */
     text-align: center;
+    /* Centered text */
+    margin-bottom: 4rem;
+    /* Increased margin bottom */
 }
 
-/* Adjust margin for text */
-.mt-4 {
-    margin-top: 1rem;
-}
-
-/* Set maximum width for text */
-.max-w-2xl {
+/* Paragraph Styles */
+#contact p {
     max-width: 42rem;
-}
-
-/* Adjust margin for grid */
-.grid {
-    display: grid;
-}
-
-/* Set column layout for small screens */
-@media (min-width: 640px) {
-    .grid-cols-1 {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-    }
-}
-
-/* Set column layout for medium screens */
-@media (min-width: 768px) {
-    .grid-cols-2 {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-/* Set column layout for large screens */
-@media (min-width: 1024px) {
-    .grid-cols-3 {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-}
-
-/* Adjust gap between grid items */
-.gap-4 {
-    gap: 1rem;
-}
-
-/* Adjust padding for grid items */
-.p-6 {
-    padding: 1.5rem;
-}
-
-/* Adjust background and border for grid items */
-.bg-white {
-    background-color: white;
-}
-
-/* Add border radius for grid items */
-.rounded-lg {
-    border-radius: 0.5rem;
-}
-
-/* Add shadow for grid items */
-.shadow-md {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-
-/* Adjust font size and weight for grid item title */
-.text-xl {
+    /* Adjusted maximum width */
+    margin: 0 auto 4rem auto;
+    /* Centered and adjusted margin bottom */
     font-size: 1.25rem;
-    font-weight: 600;
+    /* Adjusted font size */
+    line-height: 1.5;
+    /* Adjusted line height */
 }
 
-/* Adjust font weight for grid item value */
-.font-semibold {
-    font-weight: 600;
+/* Grid Styles */
+#contact .grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem;
+    /* Adjusted gap between grid items */
 }
 
-/* Adjust text color for grid item value */
-.text-gray-900 {
-    color: #1f2937;
+@media (min-width: 768px) {
+
+    /* Styles for larger screens */
+    #contact .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        /* Adjusted grid columns for larger screens */
+    }
+}
+
+/* Grid Item Styles */
+#contact .grid>div {
+    padding: 1.5rem;
+    /* Reduced padding */
+    /* Adjusted padding */
+    background-color: #1c0653;
+    /* Adjusted background color */
+    border-radius: 0.5rem;
+    /* Adjusted border radius */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* Added box shadow */
+}
+
+/* Title Styles for Grid Items */
+#contact .grid h3 {
+    font-size: 1.5rem;
+    /* Adjusted font size */
+    font-weight: 600;
+    /* Adjusted font weight */
+    margin-bottom: 0.5rem;
+    /* Adjusted margin bottom */
+}
+
+/* Text Styles for Grid Items */
+#contact .grid p {
+    font-size: 1rem;
+    /* Adjusted font size */
+    line-height: 1.5;
+    /* Adjusted line height */
+    color: #cfc8c8;
+    /* Adjusted text color */
 }

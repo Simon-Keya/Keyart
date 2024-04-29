@@ -42,7 +42,7 @@ const Contact: React.FC<ContactProps> = ({ id }) => {
    <section id={id} className="bg-black py-12 px-4 sm:px-6 lg:px-8"> {/* Adjusted background color */}
      <div className="container mx-auto">
        <div className="mb-20 text-center">
-         <h2 className="text-3xl font-extrabold tracking-tight text-white"> {/* Adjusted text color */}
+         <h2 className="text-5xl font-extrabold tracking-tight text-white"> {/* Increased title size and adjusted text color */}
            Contact Me
          </h2>
          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
