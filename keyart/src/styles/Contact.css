@@ -6,7 +6,7 @@
     /* Adjusted background color */
     color: #fff;
     /* Adjusted text color */
-    padding: 6rem 2rem;
+    padding: 4rem 1rem;
     /* Adjusted padding */
 }
 
@@ -53,10 +53,9 @@
 
 /* Grid Item Styles */
 #contact .grid>div {
-    padding: 1.5rem;
+    padding: 0.30rem;
     /* Reduced padding */
-    /* Adjusted padding */
-    background-color: #1c0653;
+    background-color: #110735;
     /* Adjusted background color */
     border-radius: 0.5rem;
     /* Adjusted border radius */
@@ -76,8 +75,8 @@
 
 /* Text Styles for Grid Items */
 #contact .grid p {
-    font-size: 1rem;
-    /* Adjusted font size */
+    font-size: 0.875rem;
+    /* Adjusted font size for placeholders */
     line-height: 1.5;
     /* Adjusted line height */
     color: #cfc8c8;

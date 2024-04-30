@@ -12,7 +12,7 @@ const About: React.FC<AboutProps> = ({ id }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Image Section */}
           <div className="flex justify-center items-center">
-            <div className="bg-gray-100 h-full rounded-lg overflow-hidden">
+            <div className="bg-black-100 h-full rounded-lg overflow-hidden">
               <img
                 className="lg:h-48 md:h-36 h-24 object-cover object-center w-full"
                 src="https://source.unsplash.com/1600x900/?artist,portrait"

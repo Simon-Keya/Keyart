@@ -1,31 +1,78 @@
 /* Home.css */
 
-/* Styles for the homepage section */
-#home {
-    position: relative;
-    background-color: #000;
+.home {
     color: #fff;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+    height: calc(100vh - 80px);
+    position: relative;
     padding-top: 4rem;
-    /* Added space on top of the image */
+    margin-top: auto;
 }
 
-/* Gradient Styles */
-.bg-gradient-to-r {
-    background-image: linear-gradient(to right, #06060a, );
-    /* Adjusted gradient colors */
+.gradient-overlay {
+    background: linear-gradient(to right, #000, #000, #000);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.75;
 }
 
-/* Container Styles */
+.relative {
+    position: relative;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.text-white {
+    color: #b2b3b9;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
 .container {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 15px;
+    max-width: 1200px;
+    margin-right: auto;
+    padding-top: 4rem;
+    margin-left: 1rem;
+    /* Adjusted left margin */
 }
 
-/* Text Styles */
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.px-4 {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .md\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
 .text-center {
     text-align: center;
 }
@@ -34,13 +81,12 @@
     text-align: left;
 }
 
-/* Heading Styles */
 .text-4xl {
-    font-size: 2rem;
+    font-size: 2.25rem;
 }
 
 .md\:text-5xl {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .font-bold {
@@ -51,16 +97,39 @@
     margin-bottom: 1rem;
 }
 
-/* Paragraph Styles */
-.text-lg {
-    font-size: 1rem;
+.text-2xl {
+    font-size: 1.5rem;
 }
 
-.md\:text-xl {
+.md\:text-3xl {
+    font-size: 1.875rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.md\:text-2xl {
+    font-size: 1.5rem;
+}
+
+.text-lg {
     font-size: 1.125rem;
 }
 
+.md\:text-xl {
+    font-size: 1.25rem;
+}
+
 .mt-6 {
+    margin-top: 1.5rem;
+}
+
+.md\:mt-6 {
     margin-top: 1.5rem;
 }
 
@@ -68,47 +137,6 @@
     margin-top: 1rem;
 }
 
-/* Image Styles */
-.img {
-    width: 100%;
-}
-
-/* Responsive Styles */
-@media (max-width: 767px) {
-
-    /* Target smaller screens (max-width 767px) */
-    .grid {
-        display: block;
-        /* Change to block display */
-    }
-
-    .grid>* {
-        margin-bottom: 2rem;
-        /* Add margin between elements */
-    }
-}
-
-@media (min-width: 768px) {
-
-    /* Styles for larger screens remain the same */
-    .text-lg {
-        font-size: 1.125rem;
-    }
-
-    .md\:text-xl {
-        font-size: 1.25rem;
-    }
-
-    .mt-6 {
-        margin-top: 2rem;
-    }
-
-    .mt-4 {
-        margin-top: 1.5rem;
-    }
-
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
+.md\:mt-4 {
+    margin-top: 1rem;
 }

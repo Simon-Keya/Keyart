@@ -13,6 +13,8 @@ header {
     max-width: 1140px;
     /* Adjusted max-width */
     margin: 0 auto;
+    padding-left: 1rem;
+    /* Adjusted left padding */
 }
 
 .flex {
