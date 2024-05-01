@@ -41,9 +41,7 @@
 .container {
     max-width: 1200px;
     margin-right: auto;
-    padding-top: 4rem;
-    margin-left: 1rem;
-    /* Adjusted left margin */
+    padding: 2rem 1rem;
 }
 
 .mx-auto {
@@ -53,7 +51,7 @@
 
 .px-4 {
     padding-right: 1rem;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
 }
 
 .py-20 {
@@ -64,7 +62,15 @@
 .grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1rem;
+}
+
+/* Image styles */
+.img-home {
+    max-width: 100%;
+    /* Adjust image size */
+    height: auto;
+    /* Ensure aspect ratio is maintained */
 }
 
 @media (min-width: 768px) {

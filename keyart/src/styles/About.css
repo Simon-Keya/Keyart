@@ -2,7 +2,7 @@
 
 /* Section Styles */
 #about {
-    padding: 5rem 0;
+    padding: 3rem 0;
     /* Adjusted padding */
 }
 
@@ -13,8 +13,6 @@
     margin: 0 auto;
     padding: 0 15px;
 }
-
-
 
 /* Image Section Styles */
 .image-section {
@@ -42,7 +40,7 @@
 
 /* Text Section Styles */
 .text-container {
-    padding-left: 2rem;
+    padding-left: 1rem;
     /* Adjusted padding */
 }
 
@@ -76,4 +74,33 @@
     /* Adjusted line-height */
     color: #a0aec0;
     /* Adjusted text color */
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+
+    /* Adjust styles for medium-sized screens */
+    #about {
+        padding: 4rem 0;
+        /* Adjusted padding */
+    }
+
+    .text-container {
+        padding-left: 2rem;
+        /* Adjusted padding */
+    }
+}
+
+@media (min-width: 1024px) {
+
+    /* Adjust styles for large-sized screens */
+    #about {
+        padding: 5rem 0;
+        /* Adjusted padding */
+    }
+
+    .text-container {
+        padding-left: 3rem;
+        /* Adjusted padding */
+    }
 }

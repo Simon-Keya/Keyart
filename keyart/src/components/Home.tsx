@@ -9,7 +9,7 @@ const Home: React.FC<HomeProps> = ({ id }) => {
   return (
     <div id={id} className="relative bg-black text-white bg-cover bg-no-repeat h-screen">
       <div className="bg-gradient-to-r from-black-500 via-black-700 to-black-900 absolute top-0 left-0 h-full w-full bg-opacity-75">
-        <div className="container mx-auto px-4 py-20">
+        <div className="container mx-auto px-2 py-20"> {/* Adjusted padding-left from px-4 to px-2 */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Image on the left */}
             <div>

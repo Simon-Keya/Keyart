@@ -10,6 +10,17 @@ footer {
   /* Adjusted padding */
 }
 
+.footer .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer .flex-col {
+  flex-direction: column;
+}
+
 /* Container Styles */
 .container {
   max-width: 1140px;
@@ -39,30 +50,22 @@ footer {
   align-items: center;
 }
 
-/* Responsive Styles */
-@media (max-width: 767px) {
-
-  /* Adjustments for smaller screens */
-  .social-icons {
-    flex-direction: column;
-    /* Icons arranged in a column */
-    justify-content: center;
-    /* Align icons to the center */
-    margin-bottom: 1.5rem;
-    /* Increased margin at the bottom */
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 0.5rem;
   }
 
-  .social-icons a {
-    margin-right: 0;
-    /* Removed right margin for icons */
+  .footer .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .flex>* {
     margin-bottom: 0.5rem;
-    /* Added bottom margin for icons */
   }
 
-  .copyright {
-    flex-direction: column;
-    /* Text arranged in a column */
-    align-items: flex-start;
-    /* Align text to the left */
+  .footer .text-xl {
+    font-size: 1rem;
   }
 }
