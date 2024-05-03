@@ -1,18 +1,29 @@
 [
     {
+      "title": "Tom and Jerry",
+      "imageUrl": "/assets/Tom and Jerry.jpg",
+      "description": "A pencil sketch drawing of Tom and Jerry two awesome characters from a cartoon show."
+    },
+    {
+      "title": "Mr Bean",
+      "imageUrl": "/assets/Mr Bean.jpg",
+      "description": "A pencil sketch drawing of mr Bean a comedy tv show legend."
+    },
+    {
+      "title": "Naruto",
+      "imageUrl": "/assets/Naruto.jpg",
+      "description": "A pencil sketch drawing of Naruto a character from an anime show."
+    },
+    {
+      "title": "Thomas Shelby",
+      "imageUrl": "/assets/Thomas Shelby.jpg",
+      "description": "A pencil facial sketch drawing of Thomas shelby a character from a british television show known a Peaky Blinders."
+    },
+    {
       "title": "Drawing 1",
       "imageUrl": "https://source.unsplash.com/random?sketch",
       "description": "Description of Drawing 1"
-    },
-    {
-      "title": "Drawing 2",
-      "imageUrl": "https://via.placeholder.com/800x600?text=Drawing+2",
-      "description": "Description of Drawing 2"
-    },
-    {
-      "title": "Drawing 3",
-      "imageUrl": "https://via.placeholder.com/800x600?text=Drawing+3",
-      "description": "Description of Drawing 3"
     }
+    
   ]
   

@@ -30,6 +30,8 @@
     /* Reduced padding */
     border-radius: 0.5rem;
     overflow: hidden;
+    max-width: 12rem;
+    /* Adjusted maximum width for the card */
 }
 
 .card img {
@@ -39,15 +41,15 @@
 }
 
 .card h3 {
-    font-size: 1rem;
-    /* Reduced font size for both painting and drawing titles */
+    font-size: 0.875rem;
+    /* Adjusted font size for both painting and drawing titles */
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
 
 .card p {
     font-size: 0.625rem;
-    /* Reduced font size for both painting and drawing data */
+    /* Adjusted font size for both painting and drawing data */
     margin-bottom: 0.5rem;
 }
 
@@ -63,7 +65,7 @@
     }
 
     .card h3 {
-        font-size: 0.875rem;
+        font-size: 0.75rem;
         /* Adjusted font size for smaller screens */
     }
 

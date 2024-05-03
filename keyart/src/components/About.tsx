@@ -28,12 +28,12 @@ const About: React.FC<AboutProps> = ({ id }) => {
             <p className="leading-loose text-gray-600">
               <strong>Name:</strong> Simon Keya<br />
               <strong>Profession:</strong> Artist<br />
-              <strong>Interests:</strong> Art, Technology, Psychology.
+              <strong>Interests:</strong> Art, Technology, Psychology, Philosophy.
             </p>
             <p className="lg:w-full mx-auto leading-relaxed text-base">
               I am a passionate artist with a deep love for creating unique and expressive
               paintings. My work is influenced by a variety of sources, and I am constantly
-              exploring new techniques and mediums to bring my visions to life.
+              exploring new techniques and mediums to bring my visions to life. Explore the depths of my artistic vision, follow the path of my creative evolution, and connect with me to bring your artistic dreams to life. I aspire to create works that captivate the senses and leave a lasting impression.
             </p>
           </div>
         </div>

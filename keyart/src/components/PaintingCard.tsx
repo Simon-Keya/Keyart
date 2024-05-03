@@ -1,5 +1,6 @@
 // PaintingCard.tsx
 import React from 'react';
+import '../styles/PaintingCard.css';
 
 interface PaintingCardProps {
   imageUrl: string;

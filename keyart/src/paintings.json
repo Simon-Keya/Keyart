@@ -1,18 +1,31 @@
 [
+    
+    {
+      "title": "Pattern Art",
+      "imageUrl": "/assets/Pattern Art.jpg",
+      "description": "A pattern painting art that constitutes of goemetric traingular patterns. Painting made using Acrylic paint. "
+    },
+    {
+      "title": "Desert Sun",
+      "imageUrl": "/assets/Sun.jpg",
+      "description": "An abstract illustration of how the sun is seen over the desert horizon."
+    },
+    {
+      "title": "Evening sky",
+      "imageUrl": "/assets/Moon Art.jpg",
+      "description": "A painting showcasing the evening sky with a little dark clouds and an orange redball of the sun."
+    },
+    
+    {
+      "title": "Pattern Art",
+      "imageUrl": "/assets/Circle Pattern.jpg",
+      "description": "A goemetric abtract art that constitues of circular shapes. "
+    },
     {
       "title": "Painting 1",
       "imageUrl": "https://source.unsplash.com/random?painting",
       "description": "Description of Painting 1"
-    },
-    {
-      "title": "Painting 2",
-      "imageUrl": "https://source.unsplash.com/random?art",
-      "description": "Description of Painting 2"
-    },
-    {
-      "title": "Painting 3",
-      "imageUrl": "https://source.unsplash.com/random?art",
-      "description": "Description of Painting 3"
     }
+    
   ]
   

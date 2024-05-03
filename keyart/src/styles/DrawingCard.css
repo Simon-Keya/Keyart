@@ -1,0 +1,34 @@
+/* DrawingCard.css */
+
+/* Card Styles */
+.drawing-card {
+    max-width: 12rem;
+    /* Adjusted maximum width */
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Added box shadow */
+}
+
+.drawing-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.drawing-card-content {
+    padding: 1rem;
+}
+
+.drawing-title {
+    font-weight: 700;
+    font-size: 1rem;
+    /* Adjusted font size for drawing title */
+    margin-bottom: 0.5rem;
+}
+
+.drawing-description {
+    font-size: 0.875rem;
+    /* Adjusted font size for drawing description */
+    color: #4b5563;
+}

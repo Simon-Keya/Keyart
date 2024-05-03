@@ -35,10 +35,10 @@ const Home: React.FC<HomeProps> = ({ id }) => {
                 </h4>
               </div>
               <p className="text-lg md:text-xl mt-6">
-                Welcome to my portfolio website! Here you can explore my latest artworks, learn more about my artistic journey, and contact me for commissions or collaborations. My goal is to create art that resonates with the soul and evokes emotions.
+              Greetings! Welcome to my portfolio website! This portfolio is my sanctuary of soulful creations. Here, art transcends mere visuals—it whispers emotions, dances with colors, and invites you to experience beauty. You can explore my latest artworks, trace the path of my artistic evolution. My mission is to craft pieces that inspire wonder and ignite passion.
               </p>
               <p className="text-lg md:text-xl mt-4">
-                Browse through my gallery to discover the beauty of art through my eyes. Feel free to reach out to me with any inquiries or project ideas.
+                Browse through my gallery to discover the beauty of art through my eyes. Feel free to reach out to me with any inquiries or projects that resonate with your vision.
               </p>
             </div>
           </div>
