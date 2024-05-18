@@ -12,13 +12,15 @@
 /* Grid Styles */
 .grid {
     display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    /* Changed to 3 columns */
     gap: 1.5rem;
 }
 
 @media (min-width: 768px) {
     .grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        /* Changed to 3 columns for larger screens as well */
     }
 }
 
@@ -72,5 +74,19 @@
     .card p {
         font-size: 0.5rem;
         /* Adjusted font size for smaller screens */
+    }
+}
+
+/* Styles for the grid layout of the paintings */
+.gallery .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+/* Responsive styles for the grid layout */
+@media (max-width: 768px) {
+    .gallery .grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
 }

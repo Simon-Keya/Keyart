@@ -11,9 +11,9 @@
       "description": "An abstract illustration of how the sun is seen over the desert horizon."
     },
     {
-      "title": "Evening sky",
-      "imageUrl": "/assets/Moon Art.jpg",
-      "description": "A painting showcasing the evening sky with a little dark clouds and an orange redball of the sun."
+      "title": "Thats Life",
+      "imageUrl": "/assets/French Art.jpg",
+      "description": "A painting comprised of the words  'thats life' in french while the hert emoji is dancing illustrating life " 
     },
     
     {
@@ -22,9 +22,14 @@
       "description": "A goemetric abtract art that constitues of circular shapes. "
     },
     {
-      "title": "Painting 1",
+      "title": "Painting",
       "imageUrl": "https://source.unsplash.com/random?painting",
-      "description": "Description of Painting 1"
+      "description": "Art "
+    },
+    {
+      "title": "Monalisa Abstract",
+      "imageUrl": "/assets/Monalisa Art.jpg",
+      "description": "An abstract version of the world greatest painting Monalisa."
     }
     
   ]
