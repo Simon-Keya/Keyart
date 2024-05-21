@@ -23,7 +23,7 @@ const About: React.FC<AboutProps> = ({ id }) => {
           {/* Text Section */}
           <div className="text-container">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"> {/* Changed text color */}
-              About Me
+              About
             </h1>
             <p className="leading-loose text-gray-600">
               <strong>Name:</strong> Simon Keya<br />

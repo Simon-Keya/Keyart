@@ -3,7 +3,7 @@
     {
       "title": "Pattern Art",
       "imageUrl": "/assets/Pattern Art.jpg",
-      "description": "A pattern painting art that constitutes of goemetric traingular patterns. Painting made using Acrylic paint. "
+      "description": "A pattern painting art that constitutes of goemetric triangular patterns. Painting made using Acrylic paint. "
     },
     {
       "title": "Desert Sun",
@@ -13,18 +13,18 @@
     {
       "title": "Thats Life",
       "imageUrl": "/assets/French Art.jpg",
-      "description": "A painting comprised of the words  'thats life' in french while the hert emoji is dancing illustrating life " 
+      "description": "A painting comprised of the words 'thats life' in french while the heart emoji is dancing illustrating life " 
     },
     
     {
       "title": "Pattern Art",
       "imageUrl": "/assets/Circle Pattern.jpg",
-      "description": "A goemetric abtract art that constitues of circular shapes. "
+      "description": "A goemetric abtract art that constitutes of circular shapes. "
     },
     {
       "title": "Painting",
       "imageUrl": "https://source.unsplash.com/random?painting",
-      "description": "Art "
+      "description": "Random Art "
     },
     {
       "title": "Monalisa Abstract",
