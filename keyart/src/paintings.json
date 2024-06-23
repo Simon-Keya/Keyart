@@ -1,36 +1,52 @@
 [
-    
+    {
+    "title": "Violin Play",
+    "imageUrl": "/assets/Violin.jpg",
+    "description": "Alady in red playing aviolin."
+    },
+    {
+      "title": "Monalisa Abstract",
+      "imageUrl": "/assets/Monalisa Art.jpg",
+      "description": "An abstract version of the world greatest painting Monalisa."
+    },
     {
       "title": "Pattern Art",
       "imageUrl": "/assets/Pattern Art.jpg",
-      "description": "A pattern painting art that constitutes of goemetric triangular patterns. Painting made using Acrylic paint. "
+      "description": "A pattern painting art that constitutes of goemetric triangular patterns. "
     },
-    {
-      "title": "Desert Sun",
-      "imageUrl": "/assets/Sun.jpg",
-      "description": "An abstract illustration of how the sun is seen over the desert horizon."
-    },
-    {
-      "title": "Thats Life",
-      "imageUrl": "/assets/French Art.jpg",
-      "description": "A painting comprised of the words 'thats life' in french while the heart emoji is dancing illustrating life " 
-    },
-    
     {
       "title": "Pattern Art",
       "imageUrl": "/assets/Circle Pattern.jpg",
       "description": "A goemetric abtract art that constitutes of circular shapes. "
     },
     {
-      "title": "Painting",
-      "imageUrl": "https://source.unsplash.com/random?painting",
-      "description": "Random Art "
+      "title": "Thats Life",
+      "imageUrl": "/assets/French Art.png",
+      "description": "A painting comprised of the words 'thats life' in french while the heart emoji is dancing illustrating life " 
+      
     },
     {
-      "title": "Monalisa Abstract",
-      "imageUrl": "/assets/Monalisa Art.jpg",
-      "description": "An abstract version of the world greatest painting Monalisa."
+      "title": "Wolf Art",
+      "imageUrl": "/assets/Wolf Art.png",
+      "description": "An abstract painting of two wolves."
+    },
+    {
+      "title": "Nude Art",
+      "imageUrl": "/assets/Nude Art.png",
+      "description": "Nude art back view."
+    },
+    {
+      "title": "Coffee Art",
+      "imageUrl": "/assets/Coffee Art.png",
+      "description": "A cup of hot coffee."
+    },
+    {
+      "title": "Desert Sun",
+      "imageUrl": "/assets/Sun.jpg",
+      "description": "An abstract illustration of how the sun is seen over the desert horizon."
     }
+
+
     
   ]
   
