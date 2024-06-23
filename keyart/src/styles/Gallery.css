@@ -1,26 +1,70 @@
 /* Gallery.css */
 
+/* Keyframes for animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 /* Section Styles */
-#gallery {
+.gallery-container {
     background-color: #000;
     color: #fff;
     padding: 2rem;
     font-size: 2rem;
-    /* Increased font size for the section */
+    animation: fadeIn 1s ease-in-out;
+}
+
+.gallery-title {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+    animation: slideIn 1s ease-in-out;
+}
+
+.gallery-section {
+    margin-bottom: 4rem;
+}
+
+.gallery-section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    animation: slideIn 1s ease-in-out;
 }
 
 /* Grid Styles */
-.grid {
+.gallery-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    /* Changed to 3 columns */
+    grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 1.5rem;
 }
 
 @media (min-width: 768px) {
-    .grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        /* Changed to 3 columns for larger screens as well */
+    .gallery-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1024px) {
+    .gallery-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 columns for larger screens */
     }
 }
 
@@ -29,11 +73,14 @@
     background-color: #333;
     color: #fff;
     padding: 0.5rem;
-    /* Reduced padding */
     border-radius: 0.5rem;
     overflow: hidden;
-    max-width: 12rem;
-    /* Adjusted maximum width for the card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .card img {
@@ -43,50 +90,32 @@
 }
 
 .card h3 {
-    font-size: 0.875rem;
-    /* Adjusted font size for both painting and drawing titles */
+    font-size: 1rem;
     font-weight: 600;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 .card p {
-    font-size: 0.625rem;
-    /* Adjusted font size for both painting and drawing data */
+    font-size: 0.75rem;
+    color: #bbb;
     margin-bottom: 0.5rem;
 }
 
 /* Responsive Styles */
 @media (max-width: 767px) {
-    .grid {
+    .gallery-grid {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 
     .card {
         padding: 1rem;
-        /* Adjusted padding */
     }
 
     .card h3 {
         font-size: 0.75rem;
-        /* Adjusted font size for smaller screens */
     }
 
     .card p {
-        font-size: 0.5rem;
-        /* Adjusted font size for smaller screens */
-    }
-}
-
-/* Styles for the grid layout of the paintings */
-.gallery .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1rem;
-}
-
-/* Responsive styles for the grid layout */
-@media (max-width: 768px) {
-    .gallery .grid {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        font-size: 0.625rem;
     }
 }

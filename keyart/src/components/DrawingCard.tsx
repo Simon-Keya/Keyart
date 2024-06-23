@@ -1,5 +1,6 @@
 // DrawingCard.tsx
 import React from 'react';
+import '../styles/DrawingCard.css';
 
 interface DrawingCardProps {
   imageUrl: string;

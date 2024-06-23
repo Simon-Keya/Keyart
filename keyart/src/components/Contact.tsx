@@ -1,5 +1,5 @@
+import { Button, Grid, Text } from '@geist-ui/react';
 import React from 'react';
-import { Grid, Text, Button } from '@geist-ui/react';
 
 interface ContactProps {
   id: string;
@@ -24,12 +24,12 @@ const Contact: React.FC<ContactProps> = ({ id }) => {
      value: (
        <Grid.Container gap={1}>
          <Grid>
-           <Button auto type="secondary" onClick={() => window.open("https://www.instagram.com/jane.doe", "_blank")} placeholder="" onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+           <Button auto type="secondary" onClick={() => window.open("https://www.instagram.com/symon_keya/", "_blank")} placeholder="" onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
              Instagram
            </Button>
          </Grid>
          <Grid>
-           <Button auto type="secondary" onClick={() => window.open("https://www.twitter.com/jane.doe", "_blank")} placeholder="" onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+           <Button auto type="secondary" onClick={() => window.open("https://twitter.com/SymonC137", "_blank")} placeholder="" onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
              Twitter
            </Button>
          </Grid>
